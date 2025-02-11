@@ -1,21 +1,6 @@
+#Hello this is for Ubunut and Debian
+
 import subprocess
-"""
-import os
-import time
-
-MONITOR_DIR = "/home/user"
-last_checked_files = set(os.listdir(MONITOR_DIR))
-
-while True:
-    current_files = set(os.listdir(MONITOR_DIR))
-    new_files = current_files - last_checked_files
-
-    for filename in new_files:
-        print(f"Utworzono plik {filename} w {MONITOR_DIR}")
-
-    last_checked_files = current_files
-    time.sleep(1)
-"""
 # Funkcja wyświetlająca status wszystkich usług
 def all_services():
     try:
