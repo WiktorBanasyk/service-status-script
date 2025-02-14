@@ -24,7 +24,7 @@ def active_services():
     except subprocess.CalledProcessError as e:
         print(f'An error occured: {e}')
 
-#active_services()
+active_services()
 
 # for inactive services
 def inactive_services():
